@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import UserLog from '../../../utils/user-log';
 
 class UserCenter extends React.Component {
   constructor() {
@@ -7,7 +8,9 @@ class UserCenter extends React.Component {
   }
 
   render() {
-    return <div></div>
+    return <div>
+
+    </div>
   }
 }
 

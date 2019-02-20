@@ -18,7 +18,7 @@ class Tabs extends React.Component {
 
   render() {
     const tabList = this.state.tabList.map(node => {
-      return <li key={node.id}>{node.text}</li>
+      return <li key={node.id}><i></i><span>{node.text}</span></li>
     });
     return (
       <div className="tab-wrapper">
