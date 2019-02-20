@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import '../../../static/styles/app.css';
 
 class ImageSlide extends React.Component {
   constructor() {
@@ -7,7 +8,16 @@ class ImageSlide extends React.Component {
   }
 
   render() {
-    return <div></div>;
+    const banner = this.props.listData.map((node) => {
+      <li key={node.id} className="slide-list">
+        <img src={node.src}/>
+      </li>
+    });
+    return (
+      <div className="banner-wrapper">
+        <ul>{banner}</ul>
+      </div>
+    );
   }
 }
 
