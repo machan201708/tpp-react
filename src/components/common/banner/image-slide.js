@@ -8,10 +8,10 @@ class ImageSlide extends React.Component {
   }
 
   render() {
-    const banner = this.props.listData.map((node) => {
-      <li key={node.id} className="slide-list">
+    const banner = this.props.listData.map(node => {
+      return (<li key={node.id} className="slide-list">
         <img src={node.src}/>
-      </li>
+      </li>)
     });
     return (
       <div className="banner-wrapper">

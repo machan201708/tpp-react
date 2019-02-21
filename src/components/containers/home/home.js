@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-// import ImageSlide from "../../common/banner/image-slide";
+import ImageSlide from "../../common/banner/image-slide";
 import HeaderTransparent from "../../common/header/header-transparent";
 
 class Home extends React.Component {
@@ -15,7 +15,7 @@ class Home extends React.Component {
     return (
       <div>
         <HeaderTransparent></HeaderTransparent>
-        {/*<ImageSlide listData={this.state.listData}></ImageSlide>*/}
+        <ImageSlide listData={this.state.listData}></ImageSlide>
       </div>);
   }
 }
