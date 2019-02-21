@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDom from 'react-dom';
 import '../../../static/styles/app.css';
 
@@ -10,14 +10,15 @@ class HeaderTransparent extends Component {
   }
 
   render() {
-    const search = Input.Search;
+    const Search = Input.Search;
     return (
       <header className="header header-transparent">
         <Row>
           <Col span={6}></Col>
-          <Col span={18}><Search placeholder="" onSearch={value => {
-            console.log(value)
-          }} style={{width: '100%'}}></Search></Col>
+          <Col span={18}>
+            <Search placeholder="" onSearch={value => {
+              console.log(value)
+            }} style={{width: '100%'}}></Search></Col>
         </Row>
       </header>
     )

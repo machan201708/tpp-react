@@ -3,11 +3,13 @@ import logo from '../static/images/logo.svg';
 import '../static/styles/app.css';
 
 import Tabs from './common/tab/tabs';
+import Main from './main';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="app">
+        <Main></Main>
         <Tabs></Tabs>
       </div>
     );

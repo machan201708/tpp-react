@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import UserLog from '../../../utils/user-log';
+import UserLog from '../../utils/user-log';
 
 class UserCenter extends React.Component {
   constructor() {
