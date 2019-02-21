@@ -15,10 +15,10 @@ class Main extends React.Component {
     return (
       <Switch>
         <Route exact path='/' component={Home}></Route>
-        <Route exact path='/film' component={FilmPage}></Route>
-        <Route exact path='/videos' component={VideosPage}></Route>
-        <Route exact path='/shows' component={ShowPage}></Route>
-        <Route exact path='/user' component={UserCenter}></Route>
+        <Route path='/film' component={FilmPage}></Route>
+        <Route path='/videos' component={VideosPage}></Route>
+        <Route path='/shows' component={ShowPage}></Route>
+        <Route path='/user' component={UserCenter}></Route>
       </Switch>
     );
   }

@@ -8,7 +8,7 @@ class Tabs extends React.Component {
     super();
     this.state = {
       tabList: [
-        {id: 0, text: '首页', icon: '', path: '/home'},
+        {id: 0, text: '首页', icon: '', path: '/'},
         {id: 1, text: '电影', icon: '', path: '/film'},
         {id: 2, text: '淘气视频', icon: '', path: '/videos'},
         {id: 3, text: '演出', icon: '', path: '/shows'},
