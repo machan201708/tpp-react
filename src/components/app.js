@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import logo from '../static/images/logo.svg';
-import '../static/styles/app.css';
+import '../static/styles/app.scss';
 
 import Tabs from './common/tab/tabs';
 import Main from './main';

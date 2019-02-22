@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ReactDom from 'react-dom';
-import '../../../static/styles/app.css';
+import '../../../static/styles/app.scss';
 
 import {Menu, Dropdown, Icon, Row, Col, Input} from 'antd';
 

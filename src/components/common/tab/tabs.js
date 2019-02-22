@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import {Route, Link} from 'react-router-dom';
-import '../../../static/styles/app.css';
+import '../../../static/styles/app.scss';
 
 class Tabs extends React.Component {
   constructor() {

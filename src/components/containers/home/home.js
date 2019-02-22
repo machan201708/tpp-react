@@ -2,28 +2,33 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import HeaderTransparent from "../../common/header/header-transparent";
 import ImageSlider from '../../common/banner/image-slider';
+import ListImgBtn from '../../common/list/list-img-btn';
 
-import '../../../static/styles/app.css';
+import '../../../static/styles/app.scss';
 
 class Home extends React.Component {
   constructor() {
     super();
     this.state = {
-      imgList: [{id: 0, src: ''}]
+      imgList: [
+        {id: 0, src: '', link: ''},
+        {id: 1, src: '', link: ''},
+        {id: 2, src: '', link: ''},
+      ],
+      homeList: [
+        {id: 0, src: '', title: '', link: '', description: ''},
+        {id: 1, src: '', title: '', link: '', description: ''},
+        {id: 2, src: '', title: '', link: '', description: ''},
+      ]
     }
   }
 
   render() {
-    const imageList = this.state.imgList.map(node => {
-      return (
-        <div><img src={node.src}/></div>
-      )
-    });
-
     return (
       <div className='container-wrapper'>
         <HeaderTransparent></HeaderTransparent>
         <ImageSlider imgList={this.state.imgList}></ImageSlider>
+        <ListImgBtn homeList={this.state.homeList}></ListImgBtn>
       </div>);
   }
 }
