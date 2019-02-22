@@ -4,6 +4,7 @@ import HeaderTransparent from "../../common/header/header-transparent";
 import ImageSlider from '../../common/banner/image-slider';
 
 import '../../../static/styles/app.css';
+
 class Home extends React.Component {
   constructor() {
     super();
@@ -13,12 +14,12 @@ class Home extends React.Component {
   }
 
   render() {
-
     const imageList = this.state.imgList.map(node => {
       return (
         <div><img src={node.src}/></div>
       )
-    })
+    });
+
     return (
       <div className='container-wrapper'>
         <HeaderTransparent></HeaderTransparent>
