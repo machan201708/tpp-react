@@ -11,13 +11,17 @@ class Home extends React.Component {
     super();
     this.state = {
       imgList: [
-        {id: 0, src: '', link: ''},
-        {id: 1, src: '', link: ''},
-        {id: 2, src: '', link: ''},
+        {id: 0, src: '../../../static/images/banner-1.jpg', link: ''},
+        {id: 1, src: '../../../static/images/banner-2.jpg', link: ''},
+        {id: 2, src: '../../../static/images/banner-3.jpg', link: ''},
+        {id: 2, src: '../../../static/images/banner-4.jpg', link: ''}
       ],
       homeList: [
         {id: 0, src: '', title: '', link: '', description: ''},
         {id: 1, src: '', title: '', link: '', description: ''},
+        {id: 2, src: '', title: '', link: '', description: ''},
+        {id: 2, src: '', title: '', link: '', description: ''},
+        {id: 2, src: '', title: '', link: '', description: ''},
         {id: 2, src: '', title: '', link: '', description: ''},
       ]
     }
