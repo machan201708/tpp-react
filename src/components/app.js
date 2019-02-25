@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import logo from '../static/images/logo.svg';
 import '../static/styles/app.scss';
 
 import Tabs from './common/tab/tabs';

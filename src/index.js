@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter} from 'react-router-dom';
 import './static/styles/index.scss';
-import "antd/dist/antd.css";
+
 import App from './components/app';
 import * as serviceWorker from './serviceWorker';
 

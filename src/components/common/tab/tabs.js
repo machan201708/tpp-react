@@ -22,7 +22,8 @@ class Tabs extends React.Component {
       return (
         <li key={node.id}>
           <Link to={node.path}>
-            <i></i><span>{node.text}</span></Link>
+            <i></i><span>{node.text}</span>
+          </Link>
         </li>
       );
     });
