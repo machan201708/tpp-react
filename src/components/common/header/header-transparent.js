@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ReactDom from 'react-dom';
 import '../../../static/styles/app.scss';
 
-import {Menu, Dropdown, Icon, Row, Col, Input} from 'antd';
+import {Menu, Dropdown, Icon, Row, Col, Input, Button} from 'antd';
 
 class HeaderTransparent extends Component {
   constructor() {
@@ -12,6 +12,9 @@ class HeaderTransparent extends Component {
   render() {
     const location = '上海';
     const Search = Input.Search;
+    const MIcon = Icon.createFromIconfontCN({
+      scriptUrl: '//at.alicdn.com/t/font_1061405_1fbros26cl9.js'
+    });
     return (
       <header className="header header-transparent">
         <Row>
@@ -19,9 +22,12 @@ class HeaderTransparent extends Component {
             <a className=''>{location}<Icon type='down'></Icon></a>
           </Col>
           <Col span={18}>
-            <Search placeholder="" onSearch={value => {
-              console.log(value)
-            }} style={{width: '100%'}}></Search></Col>
+            <div className="float-right">
+              <Button ghost className="no-border"><MIcon type="icon-qrcode"></MIcon></Button>
+              <Button ghost className="no-border"><MIcon type="icon-canlender"></MIcon></Button>
+              <Button ghost className="no-border"><MIcon type="icon-search"/></Button>
+            </div>
+          </Col>
         </Row>
       </header>
     )

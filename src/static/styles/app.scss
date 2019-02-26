@@ -1,4 +1,4 @@
-@import "../../../node_modules/antd/dist/antd.css";
+@import "~antd/dist/antd.css";
 
 .app {
   .header {
@@ -25,11 +25,14 @@
     height: 5rem;
     .home-banner {
       width: 100%;
-      .slick-list {
-        img {
-          width: 100%;
+      .ant-carousel {
+        .slick-slide {
+          img {
+            width: 100%;
+          }
         }
       }
+
     }
     .ant-card-body {
       padding: 10px;

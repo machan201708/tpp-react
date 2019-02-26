@@ -14,7 +14,7 @@ class ImageSlider extends React.Component {
     });
     return (
       <div className='home-banner'>
-        <Carousel>
+        <Carousel autoplay>
           {banner}
         </Carousel>
       </div>
