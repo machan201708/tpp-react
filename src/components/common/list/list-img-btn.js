@@ -22,10 +22,10 @@ class ListImgBtn extends React.Component {
             </Link>
           </Card>
         </List.Item>
-      )
+      );
     });
     return (
-      <div>
+      <div className="list-wrapper">
         <Card>
           <List grid={{gutter: 10, column: 4}}>{items}</List>
         </Card>

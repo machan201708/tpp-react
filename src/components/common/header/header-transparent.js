@@ -13,7 +13,7 @@ class HeaderTransparent extends Component {
     const location = '上海';
     const Search = Input.Search;
     const MIcon = Icon.createFromIconfontCN({
-      scriptUrl: '//at.alicdn.com/t/font_1061405_1fbros26cl9.js'
+      scriptUrl: '//at.alicdn.com/t/font_1061405_wort79l8ayj.js'
     });
     return (
       <header className="header header-transparent">
@@ -23,9 +23,9 @@ class HeaderTransparent extends Component {
           </Col>
           <Col span={18}>
             <div className="float-right">
-              <Button ghost className="no-border"><MIcon type="icon-qrcode"></MIcon></Button>
-              <Button ghost className="no-border"><MIcon type="icon-canlender"></MIcon></Button>
-              <Button ghost className="no-border"><MIcon type="icon-search"/></Button>
+              <a className="icon-btn"><MIcon type="icon-qrcode"></MIcon></a>
+              <a className="icon-btn"><MIcon type="icon-canlender"></MIcon></a>
+              <a className="icon-btn"><MIcon type="icon-search"/></a>
             </div>
           </Col>
         </Row>

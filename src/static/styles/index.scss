@@ -23,9 +23,12 @@ ul, li {
   float: right;
 }
 
-.no-border {
-  border: none !important;
-  outline: none !important;
+.icon-btn {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.2rem;
 }
 
 $theme: #ec493e;

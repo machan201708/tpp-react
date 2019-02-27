@@ -5,6 +5,7 @@
     width: 100%;
     height: 3rem;
     z-index: 9;
+    padding: 0.5rem;
   }
 
   .header-transparent {
@@ -18,25 +19,6 @@
 
   .header-white {
     background-color: #ffffff;
-  }
-
-  .banner-wrapper {
-    width: 100%;
-    height: 5rem;
-    .home-banner {
-      width: 100%;
-      .ant-carousel {
-        .slick-slide {
-          img {
-            width: 100%;
-          }
-        }
-      }
-
-    }
-    .ant-card-body {
-      padding: 10px;
-    }
   }
 
   .tab-wrapper {
