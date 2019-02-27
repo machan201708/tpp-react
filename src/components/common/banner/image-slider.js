@@ -1,6 +1,6 @@
 import React from 'react';
 import {Carousel} from 'antd';
-import '../../../static/styles/home.scss';
+import '../../../static/styles/app.scss';
 
 class ImageSlider extends React.Component {
   constructor() {

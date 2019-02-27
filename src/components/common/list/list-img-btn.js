@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {Button, Card, List} from 'antd';
-import '../../../static/styles/home.scss';
+import '../../../static/styles/app.scss';
 
 class ListImgBtn extends React.Component {
   constructor() {

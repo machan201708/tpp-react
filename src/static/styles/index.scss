@@ -19,8 +19,12 @@ ul, li {
   list-style: none;
 }
 
-.float-right {
+.fr {
   float: right;
+}
+
+.fl {
+  float: left;
 }
 
 .icon-btn {
@@ -31,5 +35,5 @@ ul, li {
   font-size: 1.2rem;
 }
 
-$theme: #ec493e;
+$theme: #ec1e4c;
 $gray: #eee;

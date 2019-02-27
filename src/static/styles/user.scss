@@ -1,0 +1,15 @@
+.user-center {
+  .header {
+    background-color: $theme;
+    height: 10rem !important;
+  }
+  .ticket-wrapper {
+    height: 3rem;
+    display: flex;
+    a {
+      flex: 1;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+}
