@@ -1,4 +1,5 @@
 import React from 'react';
+import HeaderTitle from "../../common/header/header-title";
 
 class MyCinemaTickets extends React.Component {
   constructor() {
@@ -7,7 +8,9 @@ class MyCinemaTickets extends React.Component {
 
   render() {
     return (
-      <div></div>
+      <div>
+        <HeaderTitle title="我的电影票"></HeaderTitle>
+      </div>
     );
   }
 }

@@ -5,6 +5,10 @@ import ShowPage from "./containers/shows/show-page";
 import UserCenter from "./containers/user/user-center";
 import Home from "./containers/home/home";
 import VideosPage from "./containers/videos/videos-page";
+import MyCinemaTickets from "./containers/user/my-cinema-tickets";
+import MyShowTickets from "./containers/user/my-show-tickets";
+import MyCoupon from "./containers/user/my-coupon";
+import MyCards from "./containers/user/my-cards";
 
 class Main extends React.Component {
   constructor() {

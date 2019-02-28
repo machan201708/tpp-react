@@ -6,5 +6,7 @@ Q: React怎样获取页面元素及添加动画效果?
 
 Q: 使用React Router?
 
+Q: 在子目录里面使用路由？
+
 Q:React项目中添加静态图片？<br/>
 A：将文件图片放在public文件夹中，创建images文件夹，使用<img src="/images/banner-1.jpg"/>即可。
