@@ -59,7 +59,7 @@ class UserCenter extends React.Component {
             </Row>
           </div>
         </header>
-        <div className="ticket-wrapper">
+        <div className="ticket-wrapper padding">
           <Link to={myCinemaTickets}><MIcon type="icon-movie"/>电影票</Link>
           <Link to={myCoupon}><MIcon type="icon-coupon"/>优惠券</Link>
           <Link to={myCards}><MIcon type="icon-card"/>权益卡</Link>

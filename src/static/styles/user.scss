@@ -11,5 +11,12 @@
       justify-content: center;
       flex-direction: column;
     }
+
+  }
+
+  .ant-list {
+    .ant-list-item-content {
+      padding-left: 1rem;
+    }
   }
 }
