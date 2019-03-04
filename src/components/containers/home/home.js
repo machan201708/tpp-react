@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import HeaderTransparent from "../../common/header/header-transparent";
-import ImageSlider from '../../common/banner/image-slider';
-import ListImgBtn from '../../common/list/list-img-btn';
+import ImageSlider from './image-slider';
+import ListImgBtn from './list-img-btn';
 
 import '../../../static/styles/app.scss';
 
