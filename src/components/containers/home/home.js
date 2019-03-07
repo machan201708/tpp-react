@@ -12,7 +12,7 @@ class Home extends React.Component {
   constructor() {
     super();
     this.state = {
-      imgList: [
+      imgListBtn: [
         {id: 0, src: '/images/banner-1.jpg', link: ''},
         {id: 1, src: '/images/banner-2.jpg', link: ''},
         {id: 2, src: '/images/banner-3.jpg', link: ''},
@@ -46,12 +46,12 @@ class Home extends React.Component {
     return (
       <div className='container-wrapper'>
         <HeaderTransparent></HeaderTransparent>
-        <ImageSlider imgList={this.state.imgList}></ImageSlider>
+        <ImageSlider imgList={this.state.imgListBtn}></ImageSlider>
         <ListImgBtn homeList={this.state.homeList}></ListImgBtn>
-        <ListImg type={this.state.type[0]} list={}></ListImg>
+        <ListImg type={this.state.types[0]} list={this.state.imgList.items}></ListImg>
         <Tabs defaultActiveKey="1">
-          <TabPane tab="精选推荐" key="0">11</TabPane>
-          <TabPane tab="我关注的" key="1">22</TabPane>
+          <TabPane tab="精选推荐" key="1">11</TabPane>
+          <TabPane tab="我关注的" key="2">22</TabPane>
         </Tabs>
       </div>);
   }
